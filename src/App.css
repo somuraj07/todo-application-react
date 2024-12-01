@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #8758ff;
+  background: #CED4DA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,11 @@ body {
 }
 
 h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+h4{
   color: #fff;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
@@ -39,7 +44,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #ADB5BD;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -52,8 +57,8 @@ h1 {
 }
 
 .todo-btn {
-  background: #8758ff;
-  color: #fff;
+  background: #ADB5BD;
+  color:black;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
@@ -63,8 +68,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
-  color: #fff;
+  background: #ADB5BD;
+  color: black;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -75,12 +80,12 @@ h1 {
 }
 
 .incompleted {
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
 .completed {
-  color: #c5aeff;
+  color: #343434;
   text-decoration: line-through;
   cursor: pointer;
 }
@@ -89,4 +94,5 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
+
  
